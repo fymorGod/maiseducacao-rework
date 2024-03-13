@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { ChevronRight } from "lucide-react"
 
 export function Aulas() {
@@ -22,6 +23,9 @@ export function Aulas() {
       {/* Calendario */}
       <div className="w-[25%] bg-white rounded-xl">
         <h1>Calendario</h1>
+        <Button>
+          Click
+        </Button>
       </div>
     </div>
   )
